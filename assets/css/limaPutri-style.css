@@ -1,0 +1,219 @@
+/* costume header */
+
+.header {
+  height: 90px;
+}
+.header,
+.header .container {
+  background-color: #0b0d10;
+}
+.header .nav a {
+  font-size: 15px !important;
+  opacity: 0.5;
+  color: white !important;
+}
+.header .nav a:hover {
+  opacity: 1;
+}
+.logo-brand img {
+  margin-top: -2rem;
+  width: 100px;
+  height: 60px;
+  background-size: cover;
+}
+
+/* costume Navbar */
+.navbar {
+  background-color: #020202ef;
+  box-shadow: 0 3px 5px rgba(73, 73, 75, 0.199);
+}
+
+.navbar .nav-item {
+  margin-right: 10px;
+}
+.navbar ul li a {
+  color: rgb(158, 155, 155) !important;
+}
+
+/* costume Carousel */
+.carousel {
+  height: 551px;
+  background-color: #dfdee3;
+}
+.carousel .slide-sale {
+  margin-top: 170px;
+}
+.carousel img {
+  width: 460px;
+  height: 551px;
+}
+
+/* ============================================ */
+
+section {
+  min-height: 400px;
+}
+
+/* style untuk section jeans terpopuler */
+
+.jeansTerpopuler img {
+  height: 400px !important;
+}
+.jeansTerpopuler figure {
+  padding: 1px;
+}
+
+.figure-img-product {
+  position: relative;
+}
+
+.icon-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.6s;
+}
+.icon-img img {
+  width: 45px !important;
+  height: 45px !important;
+}
+.figure-img-product:hover .icon-img {
+  opacity: 1;
+}
+
+.terpopulerTerbaru .icon-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.46;
+}
+
+.terpopuler {
+  background-color: #e8e8e8;
+  height: 900px;
+}
+.terpopuler figure img {
+  width: 600px;
+  height: 900px;
+}
+.terpopuler .slide-sale {
+  margin-top: 330px;
+}
+
+/* Section kacamata */
+
+.dompetKulit .figure img {
+  width: 235px;
+  height: 180px;
+}
+
+.dompetKulit .figure-icon-image img {
+  width: 75px;
+  height: 75px;
+  border: 2px solid white;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.dompetKulit .figure-icon-image a {
+  text-decoration: none;
+}
+
+.dompetKulit .figure-icon-image img:hover {
+  opacity: 0.5;
+}
+/* Terpopuler terbaru */
+.terpopulerTerbaru,
+.product-sejenis {
+  background-color: #e8e8e8;
+}
+
+.terpopulerTerbaru img {
+  width: 320px;
+  height: 350px;
+}
+.terpopulerTerbaru .figure {
+  position: relative;
+}
+.terpopulerTerbaru figcaption {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}
+/* Nama brands */
+
+.namaBran .figure {
+  height: 145px !important;
+}
+.namaBran img {
+  width: 200px;
+  height: 160px;
+}
+.namaBran .bran-baris-2 img {
+  width: 120px;
+  height: 130px;
+}
+/* Pelayanan */
+.pelayanan {
+  background-color: #e8e8e8;
+}
+
+.pelayanan img {
+  width: 80px;
+  height: 80px;
+}
+/* Footer */
+.footer {
+  background-color: #0b0d10;
+}
+
+/* Footer */
+.footer ul li a {
+  font-size: 12px !important;
+  color: #e8e8e8;
+  font-size: 12px;
+  padding: 1px !important;
+  opacity: 0.5;
+}
+.footer ul li a:hover {
+  opacity: 1;
+}
+
+/* Breadcrumb */
+
+.container-breadcrumb {
+  margin-top: 10px;
+  background-color: #e8edf1;
+}
+
+.container-breadcrumb nav .breadcrumb li {
+  font-size: 13px !important;
+}
+
+/* costume single-product */
+.single-product .figure img {
+  height: 640px !important;
+}
+.single-product .figure-thumbnail img {
+  height: 213px;
+}
+
+/* Membuat animasi */
+
+@keyframes animasiProduct {
+  to {
+    opacity: 1;
+  }
+}
+
+.animasi-img {
+  opacity: 0;
+  animation: animasiProduct 0.5s;
+}
